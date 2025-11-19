@@ -1,25 +1,29 @@
-def factorial(n: int) -> int:
-    if n == 1 or n == 0:
-        return 1
-    print(f"Calculating {n} * {n - 1}!")
-    return n * factorial(n - 1)
+# def factorial(n: int) -> int:
+#     if n == 1 or n == 0:
+#         return 1
+#     print(f"Calculating {n} * {n - 1}!")
+#     return n * factorial(n - 1)
 
 
-print(factorial(4))
+# nineninenine = factorial(999)
+# print(nineninenine * 1000)
 
 
 # def re_sum_one(num_list: list[int]) -> int:
+#     print("Entering another recursion")
 #     if len(num_list) == 1:
 #         return num_list.pop()
 
 #     last = num_list.pop()
 #     print(f"Calculating {num_list[:]} + {last}")
-#     return re_sum_one(num_list[:]) + last
+#     val = re_sum_one(num_list[:])
+#     print(f"Finished recursion for {num_list[:]}")
+#     return val + last
 
 
 # max = 10
 # numbers = list(range(1, max + 1))
-# print(re_sum_one(numbers[:]))
+# # print(re_sum_one(numbers[:]))
 
 # def re_sum_half(num_list: list[int]) -> int:
 #     if len(num_list) == 1:
